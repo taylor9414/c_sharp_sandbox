@@ -33,8 +33,6 @@ public class MyForm : Form
 	
 	public static void Main ( string[] args)
 	{
-		
-		Console.WriteLine("Hello Man.");
 		Application.Run(new MyForm());
 	}
 	
