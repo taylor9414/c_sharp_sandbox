@@ -38,11 +38,6 @@ public class MyForm : Form
 		Application.Run(new MyForm());
 	}
 	
-	private static void makeWindow()
-	{
-		
-	}
-	
 	private void btnOk_Click(object sender, System.EventArgs e)
 	{
 		lblDisplay.Text = txtEnter.Text + "\n" + lblDisplay.Text;
